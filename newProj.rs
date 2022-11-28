@@ -1,6 +1,6 @@
 fn main(){
-    while(true){
-        printsmth
+    loop {
+        printsmth()
     }
 }
 
