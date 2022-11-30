@@ -5,6 +5,8 @@ fn main(){
 
     while i <= 3{
         println!("{}", bob[i]);
+        let binary_rep = format!("{:b}", bob[i]);
+        println!("{}", binary_rep);
         i = i + 1;
     }
     printsmth()
